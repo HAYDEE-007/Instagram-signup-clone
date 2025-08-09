@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.instagrambox {
+width: 300px;
+padding: 40px 30px;
+border: 1px  transparent;
+border-radius: 1px;
+box-shadow: 0 0 5px;
+margin: 30px auto;
+text-align: center;
+height: 610px;
+}
+h2 {
+  font-size: 42px;
+  font-family: apple-system;
+  text-align: center;
+  margin: 20px;
+}
+p {
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+color: gray;
+}
+
+button {
+  width: 300px;
+  height: 30px;
+  background-color: #50578f;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700px;
+}
+.button {
+  width: 250px;
+  height: 30px;
+  background-color: #2a368f;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700px;
+}
+legend {
+  color: gray;
+  margin-left: 45%;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+fieldset {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+input {
+  width: 250px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 2px;
+  padding-left: 10px;
+  border: 0.1px, solid, grey;
+  outline-color: grey;
+  align-content: center;
+}
+.login_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 300px;
+  padding: 20px 30px;
+border: 1px  transparent;
+border-radius: 1px;
+box-shadow: 0 0 5px;
+margin: 20px auto;
+text-align: center;
+
+}
+
+.login {
+  color: #111fa0;
+  text-decoration: none;
+}
+.login:hover {
+  cursor: pointer;
+  color: #5b5bec;
+}
+
+.foot {
+display: flex;
+justify-content: space-evenly;
+word-spacing: 1px;
+color: gray ;
+}
+
+.footer {
+display: flex;
+justify-content: center;
+word-spacing: 1px;
+color: gray;
+}
